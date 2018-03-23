@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVM", "MVVM", "{883B192F-562D-4859-AC36-A8FDD3A731FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{BB42DED2-B047-4041-8BFD-7224FE78C9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM.Data", "MVVM.Data\MVVM.Data.csproj", "{05FC9D76-EA18-4E04-8B7C-C1E014E9B8D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB42DED2-B047-4041-8BFD-7224FE78C9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB42DED2-B047-4041-8BFD-7224FE78C9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB42DED2-B047-4041-8BFD-7224FE78C9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB42DED2-B047-4041-8BFD-7224FE78C9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FC9D76-EA18-4E04-8B7C-C1E014E9B8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FC9D76-EA18-4E04-8B7C-C1E014E9B8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FC9D76-EA18-4E04-8B7C-C1E014E9B8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FC9D76-EA18-4E04-8B7C-C1E014E9B8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB42DED2-B047-4041-8BFD-7224FE78C9E8} = {883B192F-562D-4859-AC36-A8FDD3A731FE}
+		{05FC9D76-EA18-4E04-8B7C-C1E014E9B8D8} = {883B192F-562D-4859-AC36-A8FDD3A731FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AECFCFE-4FF4-4468-9A8F-59E24DDFFA73}
+	EndGlobalSection
+EndGlobal
